@@ -1,4 +1,7 @@
 import { Module } from '@nestjs/common';
+import { ChatappController } from './chatapp.controller';
 
-@Module({})
+@Module({
+  controllers: [ChatappController]
+})
 export class ChatappModule {}
