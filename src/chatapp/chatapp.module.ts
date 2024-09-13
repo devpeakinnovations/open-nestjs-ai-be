@@ -4,4 +4,8 @@ import { ChatappController } from './chatapp.controller';
 @Module({
   controllers: [ChatappController]
 })
-export class ChatappModule {}
+export class ChatappModule {
+  get(){
+    
+  }
+}
