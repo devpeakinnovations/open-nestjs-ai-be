@@ -7,4 +7,7 @@ import { ChatappService } from './chatapp.service';
   providers: [ChatappService]
 })
 export class ChatappModule {
+  get() {
+    
+  }
 }
